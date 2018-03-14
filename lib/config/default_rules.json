@@ -1,0 +1,51 @@
+[{
+      "tag":"img",
+      "params":{
+          "attribute":{
+            "name": "alt",
+            "present": false
+          }
+      }
+ },
+ {
+    "tag":"a",
+    "params":{
+        "attribute":{
+          "name": "rel",
+          "present": true
+        }
+    }
+  },
+  {
+    "tag":"h1",
+    "params":{
+      "min_count": 1
+    }
+  },
+  {
+    "tag":"strong",
+    "params":{
+      "min_count": 4
+    }
+  },
+  {
+    "tag":"head",
+    "params":{
+      "child":[{
+                "tag":"title",
+                "present": false
+              },
+              {
+                "tag":"meta",
+                "present": false,
+                "name": "descriptions"
+              },
+              {
+                "tag":"meta",
+                "present": false,
+                "name": "keywords"
+              }
+            ]
+       }
+   }
+ ]
